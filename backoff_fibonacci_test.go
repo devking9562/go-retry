@@ -18,7 +18,7 @@ func TestFibonacciBackoff(t *testing.T) {
 		name  string
 		base  time.Duration
 		tries int
-		exp   []time.Duration
+		exp   []time.Duration    
 	}{
 		{
 			name:  "single",
